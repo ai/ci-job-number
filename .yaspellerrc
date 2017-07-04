@@ -3,6 +3,11 @@
   "ignoreCapitalization": true,
   "dictionary": [
     "Versioning",
-    "CI"
+    "CI",
+    "ci",
+    "Travis",
+    "AppVeyor",
+    "js",
+    "yaspeller"
   ]
 }
