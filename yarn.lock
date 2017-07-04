@@ -414,6 +414,10 @@ ci-info@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-1.0.0.tgz#dc5285f2b4e251821683681c381c3388f46ec534"
 
+ci-job-number@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/ci-job-number/-/ci-job-number-0.1.0.tgz#271b545126e2aefd459ff20f808bd6181733a2d0"
+
 circular-json@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.3.1.tgz#be8b36aefccde8b3ca7aa2d6afc07a37242c0d2d"
@@ -2956,13 +2960,14 @@ yargs@~3.10.0:
     decamelize "^1.0.0"
     window-size "0.1.0"
 
-yaspeller-ci@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/yaspeller-ci/-/yaspeller-ci-0.4.0.tgz#7d05a85fdbb3482335296d1c25beb26646857f9e"
+yaspeller-ci@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/yaspeller-ci/-/yaspeller-ci-0.4.1.tgz#6843e1f7e81856be444b6f5708959811d1d0b860"
   dependencies:
-    yaspeller "^3.1.0"
+    ci-job-number "^0.1.0"
+    yaspeller "^3.2.0"
 
-yaspeller@^3.1.0:
+yaspeller@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/yaspeller/-/yaspeller-3.2.0.tgz#9d0ca63b417777a03aada0a935848ce70ec06f0b"
   dependencies:
