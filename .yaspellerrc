@@ -8,6 +8,7 @@
     "Travis",
     "AppVeyor",
     "js",
-    "yaspeller"
+    "yaspeller",
+    "JSDoc"
   ]
 }
