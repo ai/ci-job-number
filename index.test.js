@@ -22,3 +22,9 @@ it('supports AppVeyor', () => {
   process.env.APPVEYOR_JOB_NUMBER = '3'
   expect(ciJobNumber()).toEqual(3)
 })
+
+it('supports CircleCI', () => {
+  process.env.CIRCLECI = 'true'
+  process.env.CIRCLE_NODE_INDEX = '2'
+  expect(ciJobNumber()).toEqual(3)
+})

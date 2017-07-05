@@ -28,6 +28,7 @@ if (ciJobNumber() === 1) {
 
 * Travis CI
 * AppVeyor
+* CircleCI
 
 ## Who Use It
 
