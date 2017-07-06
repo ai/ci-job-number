@@ -21,6 +21,8 @@ module.exports = function ciJobNumber () {
     return parseInt(process.env.APPVEYOR_JOB_NUMBER)
   } else if (process.env.CIRCLECI) {
     return parseInt(process.env.CIRCLE_NODE_INDEX) + 1
+  } else if (process.env.SEMAPHORE) {
+    return parseInt(process.env.SEMAPHORE_CURRENT_THREAD)
   } else {
     return 1
   }
