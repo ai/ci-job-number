@@ -19,6 +19,8 @@ module.exports = function ciJobNumber () {
     return parseInt(process.env.TRAVIS_JOB_NUMBER.split('.')[1])
   } else if (process.env.APPVEYOR) {
     return parseInt(process.env.APPVEYOR_JOB_NUMBER)
+  } else if (process.env.CIRCLECI) {
+    return parseInt(process.env.CIRCLE_NODE_INDEX) + 1
   } else {
     return 1
   }

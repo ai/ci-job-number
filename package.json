@@ -6,6 +6,7 @@
     "CI",
     "Travis",
     "AppVeyor",
+    "Circle",
     "job"
   ],
   "author": "Andrey Sitnik <andrey@sitnik.ru>",
