@@ -28,3 +28,9 @@ it('supports CircleCI', () => {
   process.env.CIRCLE_NODE_INDEX = '2'
   expect(ciJobNumber()).toEqual(3)
 })
+
+it('supports Semaphore', () => {
+  process.env.SEMAPHORE = 'true'
+  process.env.SEMAPHORE_CURRENT_THREAD = '3'
+  expect(ciJobNumber()).toEqual(3)
+})
