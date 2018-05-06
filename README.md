@@ -35,3 +35,4 @@ if (ciJobNumber() === 1) {
 
 * [Size Limit](https://github.com/ai/size-limit)
 * [yaspeller-ci](https://github.com/ai/yaspeller-ci)
+* [eslint-ci](https://github.com/JLHwung/eslint-ci)
