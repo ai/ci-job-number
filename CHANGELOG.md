@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 0.3.1
+* Reduce package size.
+
 ## 0.3
 * Add Semaphore support (by Vasily Polovnyov).
 
