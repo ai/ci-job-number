@@ -24,6 +24,7 @@ if (ciJobNumber() === 1) {
        alt="Sponsored by Evil Martians" width="236" height="54">
 </a>
 
+
 ## CI Support
 
 * Travis CI
@@ -31,8 +32,9 @@ if (ciJobNumber() === 1) {
 * CircleCI
 * Semaphore
 
+
 ## Who Use It
 
 * [Size Limit](https://github.com/ai/size-limit)
-* [yaspeller-ci](https://github.com/ai/yaspeller-ci)
-* [eslint-ci](https://github.com/JLHwung/eslint-ci)
+* [`yaspeller-ci`](https://github.com/ai/yaspeller-ci)
+* [`eslint-ci`](https://github.com/JLHwung/eslint-ci)

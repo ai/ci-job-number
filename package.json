@@ -10,41 +10,58 @@
     "Semaphore",
     "job"
   ],
+  "scripts": {
+    "spell": "yaspeller-ci *.md",
+    "test": "jest && eslint-ci . && yarn spell"
+  },
   "author": "Andrey Sitnik <andrey@sitnik.ru>",
   "license": "MIT",
   "repository": "ai/ci-job-number",
   "devDependencies": {
-    "eslint": "^4.1.1",
-    "eslint-config-logux": "^15.0.1",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.6.1",
-    "eslint-plugin-jest": "^20.0.3",
-    "eslint-plugin-node": "^5.1.0",
-    "eslint-plugin-promise": "^3.5.0",
+    "@logux/eslint-config": "^34.0.0",
+    "eslint": "^6.6.0",
+    "eslint-ci": "^1.0.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-es5": "^1.4.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.0.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prefer-let": "^1.0.1",
+    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "jest": "^20.0.4",
-    "lint-staged": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-unicorn": "^12.1.0",
+    "jest": "^24.9.0",
+    "lint-staged": "^9.4.2",
     "pre-commit": "^1.2.2",
-    "yaspeller-ci": "^0.4.1"
-  },
-  "scripts": {
-    "lint-staged": "lint-staged",
-    "spellcheck": "yaspeller-ci *.md",
-    "lint": "eslint *.js test/*.js",
-    "test": "jest && yarn run lint && yarn run spellcheck"
-  },
-  "engines": {
-    "node": ">=4.0.0"
+    "yaspeller-ci": "^1.0.1"
   },
   "eslintConfig": {
-    "extends": "eslint-config-logux/node4"
+    "extends": "@logux/eslint-config/node"
   },
   "lint-staged": {
-    "*.md": "yaspeller-ci",
+    "*.md": "yaspeller",
     "*.js": "eslint"
   },
-  "pre-commit": [
-    "lint-staged"
-  ]
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "yaspeller": {
+    "lang": "en",
+    "ignoreCapitalization": true,
+    "ignoreText": [
+      " \\(by [^)]+\\)."
+    ],
+    "dictionary": [
+      "Versioning",
+      "Travis",
+      "AppVeyor",
+      "CircleCI",
+      "CI",
+      "JSDoc",
+      "js"
+    ]
+  }
 }
