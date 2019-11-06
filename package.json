@@ -19,6 +19,7 @@
   "repository": "ai/ci-job-number",
   "devDependencies": {
     "@logux/eslint-config": "^34.0.0",
+    "clean-publish": "^1.1.2",
     "eslint": "^6.6.0",
     "eslint-ci": "^1.0.0",
     "eslint-config-standard": "^14.1.0",
