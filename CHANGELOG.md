@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.0
+* Add GitHub Actions support (by Aleksandr Anokhin).
+
 ## 0.3.1
 * Reduce package size.
 

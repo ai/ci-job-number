@@ -1,6 +1,6 @@
 {
   "name": "ci-job-number",
-  "version": "0.3.1",
+  "version": "1.0.0",
   "description": "Return CI job number to run huge tests only on first job",
   "keywords": [
     "CI",
@@ -64,7 +64,8 @@
       "CircleCI",
       "CI",
       "JSDoc",
-      "js"
+      "js",
+      "GitHub"
     ]
   }
 }
