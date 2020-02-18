@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "spell": "yaspeller-ci *.md",
-    "test": "jest && eslint-ci . && yarn spell"
+    "test": "jest-ci --coverage && eslint-ci . && yarn spell"
   },
   "author": "Andrey Sitnik <andrey@sitnik.ru>",
   "license": "MIT",
@@ -34,6 +34,7 @@
     "eslint-plugin-unicorn": "^16.1.1",
     "husky": "^4.2.3",
     "jest": "^25.1.0",
+    "jest-ci": "^0.1.0",
     "lint-staged": "^10.0.7",
     "pre-commit": "^1.2.2",
     "yaspeller-ci": "^1.0.1"

@@ -891,7 +891,7 @@ ci-info@^2.0.0:
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-2.0.0.tgz#67a9e964be31a51e15e5010d58e6f12834002f46"
   integrity sha512-5tK7EtrZ0N+OLFMthtqOj4fI2Jeb88C4CAZPu25LDVUgXJ0A3Js4PMGqrn0JU1W0Mh1/Z8wZzYPxqUrXeBboCQ==
 
-ci-job-number@^0.3.0:
+ci-job-number@^0.3.0, ci-job-number@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/ci-job-number/-/ci-job-number-0.3.1.tgz#4354e45bb3ed5a7301f09358d2876d510d4a570e"
   integrity sha512-OfY2Cg+mTqZz7lWOxONGbAXVZNNWPSiyGtOpAjYHEVTXIae8lGCOg3cDfJpPh8zcl+2CqItOsxbvH6ueV+QOmw==
@@ -2501,6 +2501,13 @@ jest-changed-files@^25.1.0:
     "@jest/types" "^25.1.0"
     execa "^3.2.0"
     throat "^5.0.0"
+
+jest-ci@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/jest-ci/-/jest-ci-0.1.0.tgz#ddf03bfc17f250dd8b498583084f4cc1aecae33b"
+  integrity sha512-LBIUbv0f477GHIKDJGXNSUzZv9Eo8+gTRKwTDzoUP+/IGrlfCgr3HshQSUm4bBw50nDkhMpu/unpuChHTrnghQ==
+  dependencies:
+    ci-job-number "^0.3.1"
 
 jest-cli@^25.1.0:
   version "25.1.0"
