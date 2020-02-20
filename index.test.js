@@ -42,3 +42,9 @@ it('supports GitHub Actions', () => {
   process.env.GITHUB_RUN_NUMBER = '6'
   expect(ciJobNumber()).toEqual(6)
 })
+
+it('supports Gitlab CI', () => {
+  process.env.GITLAB_CI = 'true'
+  process.env.CI_NODE_INDEX = '7'
+  expect(ciJobNumber()).toEqual(7)
+})
