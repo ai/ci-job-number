@@ -43,8 +43,13 @@ it('supports GitHub Actions', () => {
   expect(ciJobNumber()).toEqual(6)
 })
 
-it('supports Gitlab CI', () => {
+it('supports Gitlab CI with parallel', () => {
   process.env.GITLAB_CI = 'true'
   process.env.CI_NODE_INDEX = '7'
   expect(ciJobNumber()).toEqual(7)
+})
+
+it('supports Gitlab CI without parallel', () => {
+  process.env.GITLAB_CI = 'true'
+  expect(ciJobNumber()).toEqual(1)
 })
