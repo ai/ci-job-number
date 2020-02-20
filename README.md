@@ -27,11 +27,12 @@ if (ciJobNumber() === 1) {
 
 ## CI Support
 
-* Travis CI
 * AppVeyor
 * CircleCI
-* Semaphore
 * GitHub Actions
+* GitLab CI
+* Semaphore
+* Travis CI
 
 
 ## Who Use It
