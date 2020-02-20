@@ -347,9 +347,9 @@
     any-observable "^0.3.0"
 
 "@sinonjs/commons@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.7.0.tgz#f90ffc52a2e519f018b13b6c4da03cbff36ebed6"
-  integrity sha512-qbk9AP+cZUsKdW1GJsBpxPKFmCJ0T8swwzVje3qFd+AkQb74Q/tiuzrdfFg8AD2g5HH/XbE/I8Uc1KYHVYWfhg==
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.7.1.tgz#da5fd19a5f71177a53778073978873964f49acf1"
+  integrity sha512-Debi3Baff1Qu1Unc3mjJ96MgpbwTn43S1+9yJ0llWygPwDNu2aaWBD6yc9y/Z8XDRNhx7U+u2UDg2OGQXkclUQ==
   dependencies:
     type-detect "4.0.8"
 
@@ -891,10 +891,15 @@ ci-info@^2.0.0:
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-2.0.0.tgz#67a9e964be31a51e15e5010d58e6f12834002f46"
   integrity sha512-5tK7EtrZ0N+OLFMthtqOj4fI2Jeb88C4CAZPu25LDVUgXJ0A3Js4PMGqrn0JU1W0Mh1/Z8wZzYPxqUrXeBboCQ==
 
-ci-job-number@^0.3.0, ci-job-number@^0.3.1:
+ci-job-number@^0.3.0:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/ci-job-number/-/ci-job-number-0.3.1.tgz#4354e45bb3ed5a7301f09358d2876d510d4a570e"
   integrity sha512-OfY2Cg+mTqZz7lWOxONGbAXVZNNWPSiyGtOpAjYHEVTXIae8lGCOg3cDfJpPh8zcl+2CqItOsxbvH6ueV+QOmw==
+
+ci-job-number@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ci-job-number/-/ci-job-number-1.0.0.tgz#383b9bff6065bb2e4ad0a68ba09fbc8d6ee25e29"
+  integrity sha512-w6+qJ7Rx/N9jdDrxhQmoSWxoD7fjk0urZEq1e3TgdEsExE/tZ2vwhjq0D3q7Fw3fbp+Tu6DfJBkfhjPzKS9+Yg==
 
 class-utils@^0.3.5:
   version "0.3.6"
@@ -2502,12 +2507,12 @@ jest-changed-files@^25.1.0:
     execa "^3.2.0"
     throat "^5.0.0"
 
-jest-ci@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/jest-ci/-/jest-ci-0.1.0.tgz#ddf03bfc17f250dd8b498583084f4cc1aecae33b"
-  integrity sha512-LBIUbv0f477GHIKDJGXNSUzZv9Eo8+gTRKwTDzoUP+/IGrlfCgr3HshQSUm4bBw50nDkhMpu/unpuChHTrnghQ==
+jest-ci@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/jest-ci/-/jest-ci-0.1.1.tgz#059dea3f53bdf6cf4f143a3e68913e7b07794478"
+  integrity sha512-DqTzVLKoBUIzEY3L3aR0jI6F5YU78IDyRjARfo10ScYluBjFAe2UKF5bg1W1gwO05gggQNWhCMqYjcC1Y3RtRA==
   dependencies:
-    ci-job-number "^0.3.1"
+    ci-job-number "^1.0.0"
 
 jest-cli@^25.1.0:
   version "25.1.0"
@@ -3947,9 +3952,9 @@ regex-not@^1.0.0, regex-not@^1.0.2:
     safe-regex "^1.1.0"
 
 regexp-tree@^0.1.17, regexp-tree@~0.1.1:
-  version "0.1.19"
-  resolved "https://registry.yarnpkg.com/regexp-tree/-/regexp-tree-0.1.19.tgz#9326e91d8d1d23298dd33a78cf5e788f57cdc359"
-  integrity sha512-mVeVLF/qg5qFbZSW0f7pXbuVX73dKIjuhOyC2JLKxzmpya75O4qLcvI9j0jp31Iz7IAkEVHa1UErDCAqaLKo5A==
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/regexp-tree/-/regexp-tree-0.1.20.tgz#d4ca65e4ab9ab05262acfce674dadd02d0fb9808"
+  integrity sha512-gSiH74kc00oTbQkN7tZogZe0ttKwyxyDVLAnU20aWoarbLE9AypbJHRlZ567h4Zi19q3cPVRWDYbfECElrHgsQ==
 
 regexpp@^2.0.1:
   version "2.0.1"
@@ -5119,15 +5124,15 @@ yargs@^15.0.0:
     y18n "^4.0.0"
     yargs-parser "^16.1.0"
 
-yaspeller-ci@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/yaspeller-ci/-/yaspeller-ci-1.0.1.tgz#4cf8c231c1ecbc8eabb7f8f4084e7deb3cca0d3c"
-  integrity sha512-9bqag0PMXm0RnHUnITfkvEOueUyyG3NP/q8TOmS9UI8tvmTP7ima9/Z2vte2hf6yJxL2Y8nxv6Tkc78gKERJ/w==
+yaspeller-ci@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/yaspeller-ci/-/yaspeller-ci-1.0.2.tgz#191fd0b3b1ae3602cac9407948f65fa1e997dd0d"
+  integrity sha512-N0q8riZB4b3ECddohE7ho1O5h8GD7LwWW860hVVTs9qqVvdxRqlJPf+q0WnYEqUDlWK3y7uktTrAske3KrJAEg==
   dependencies:
-    ci-job-number "^0.3.0"
-    yaspeller ">=5.1.0"
+    ci-job-number "^1.0.0"
+    yaspeller ">=6.0.2"
 
-yaspeller@>=5.1.0:
+yaspeller@>=6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/yaspeller/-/yaspeller-6.0.2.tgz#a540e703667a4fd8c71506e1846c71623d8952ff"
   integrity sha512-QUMQXLPYd8j8QaBSFJNX7cMlL5yys+/pDULEsNPozcVbKYtjwMRYonn4pQfxsMa/dSZ6YQt4ycxX1d3zJ78GzA==
