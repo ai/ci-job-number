@@ -37,6 +37,9 @@ if (ciJobNumber() === 1) {
 
 ## Who Use It
 
-* [Size Limit](https://github.com/ai/size-limit)
-* [`yaspeller-ci`](https://github.com/ai/yaspeller-ci)
+* [`check-dts`](https://github.com/ai/check-dts)
 * [`eslint-ci`](https://github.com/JLHwung/eslint-ci)
+* [`jest-ci`](https://github.com/ai/jest-ci)
+* [`size-limit`](https://github.com/ai/size-limit)
+* [`spech`](https://github.com/megahertz/spech)
+* [`yaspeller-ci`](https://github.com/ai/yaspeller-ci)
