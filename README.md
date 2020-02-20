@@ -31,6 +31,7 @@ if (ciJobNumber() === 1) {
 * AppVeyor
 * CircleCI
 * Semaphore
+* GitHub Actions
 
 
 ## Who Use It
