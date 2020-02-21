@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.2.1
+* Reduce package size.
+
 ## 1.2
 * Add `CI_JOB_NUMBER` environment variable.
 
