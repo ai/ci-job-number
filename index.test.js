@@ -53,3 +53,10 @@ it('supports Gitlab CI without parallel', () => {
   process.env.GITLAB_CI = 'true'
   expect(ciJobNumber()).toEqual(1)
 })
+
+it('supports own variable', () => {
+  process.env.CI_JOB_NUMBER = '8'
+  process.env.TRAVIS = '1'
+  process.env.TRAVIS_JOB_NUMBER = '207.2'
+  expect(ciJobNumber()).toEqual(8)
+})

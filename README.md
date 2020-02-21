@@ -43,3 +43,16 @@ if (ciJobNumber() === 1) {
 * [`size-limit`](https://github.com/ai/size-limit)
 * [`spech`](https://github.com/megahertz/spech)
 * [`yaspeller-ci`](https://github.com/ai/yaspeller-ci)
+
+
+## Override Default Behaviour
+
+`CI_JOB_NUMBER` environment variable will override CI job number.
+It is the best way to change default behaviour and run task on all CI jobs:
+
+```yaml
+  - name: Build and test
+    run: yarn test
+    env:
+      CI_JOB_NUMBER: 1
+```
