@@ -1,6 +1,9 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.2
+* Add `CI_JOB_NUMBER` environment variable.
+
 ## 1.1
 * Add GitLab CI (by Denis Talakevich).
 

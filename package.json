@@ -1,6 +1,6 @@
 {
   "name": "ci-job-number",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Return CI job number to run huge tests only on first job",
   "keywords": [
     "CI",
