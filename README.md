@@ -29,7 +29,6 @@ if (ciJobNumber() === 1) {
 
 * AppVeyor
 * CircleCI
-* GitHub Actions
 * GitLab CI
 * Semaphore
 * Travis CI
