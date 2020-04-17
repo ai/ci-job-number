@@ -1,9 +1,6 @@
 # Change Log
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unreleased
-* Removes explicit GitHub Actions support as it wasn't working as intended.
-
 ## 1.2.1
 * Reduce package size.
 
