@@ -37,12 +37,6 @@ it('supports Semaphore', () => {
   expect(ciJobNumber()).toEqual(5)
 })
 
-it('supports GitHub Actions', () => {
-  process.env.GITHUB_WORKFLOW = '1'
-  process.env.GITHUB_RUN_NUMBER = '6'
-  expect(ciJobNumber()).toEqual(6)
-})
-
 it('supports Gitlab CI with parallel', () => {
   process.env.GITLAB_CI = 'true'
   process.env.CI_NODE_INDEX = '7'

@@ -25,8 +25,6 @@ module.exports = function ciJobNumber () {
     return parseInt(process.env.CIRCLE_NODE_INDEX) + 1
   } else if (process.env.SEMAPHORE) {
     return parseInt(process.env.SEMAPHORE_CURRENT_THREAD)
-  } else if (process.env.GITHUB_WORKFLOW) {
-    return parseInt(process.env.GITHUB_RUN_NUMBER)
   } else if (process.env.GITLAB_CI) {
     return parseInt(process.env.CI_NODE_INDEX || '1')
   } else {
